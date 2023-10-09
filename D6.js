@@ -247,14 +247,17 @@ console.log(filmDrop);
 /* ESERCIZIO 13 (reduce)
   Scrivi una funzione per calcolare la somma di tutti gli anni in cui sono stati prodotti i film contenuti nell'array fornito.
 */
-const sumYear = movies.Year.reduce((acc, curr) => (acc += curr));
-
-console.log(sumYear);
+// const sumYear = movies.Year.reduce((acc, curr) => acc + movies.Year);
 
 /* ESERCIZIO 14 (find)
   Scrivi una funzione per ottenere dall'array fornito uno specifico film (la funzione riceve un imdbID come parametro).
 */
 
+const findFilm = movies.find((number) => (nmber = movie.imdbID));
+
+console.log();
+
 /* ESERCIZIO 15 (findIndex)
   Scrivi una funzione per ottenere dall'array fornito l'indice del primo film uscito nell'anno fornito come parametro.
 */
+const searchingYear = movies.findIndex((dato) => dato === movies.Year);
